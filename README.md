@@ -5,7 +5,7 @@ Overview
 
 Features
 - The Digis Squared HR Management System offers a range of features to ensure a seamless user experience for HR staff and employees:
-  - User Authentication: Secure login functionalities for managers and employees to access their respective dashboards.
+  - User Authentication: Secure login functionalities for employees, managers, and HR staff to access their respective dashboards.
   - Approval System: Managers can approve or unapprove work hours submitted by their respective team members, ensuring accurate payroll processing.
   - Search Functionality: Advanced search options allow managers to find employee records and work hours efficiently.
   - Employee Management: Detailed employee records are maintained, including work hours, and salaries.
