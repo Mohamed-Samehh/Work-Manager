@@ -1,10 +1,10 @@
-Digis Squared - HR Management System
+Work Manager - HR Management System
 
 Overview
-- The Digis Squared HR Management System is an interactive web application designed to simplify the management of part-time employee schedules and records. It offers a comprehensive solution where employees can enter their working hours, managers can approve or reject the hours logged by their respective team members, and HR staff can view the approved hours for all employees.
+- This is an interactive web application designed to simplify the management of part-time employee schedules and records for Digis Squared. It offers a comprehensive solution where employees can enter their working hours, managers can approve or reject the hours logged by their respective team members, and HR staff can view the approved hours for all employees.
 
 Features
-- The Digis Squared HR Management System offers a range of features to ensure a seamless user experience for HR staff and employees:
+- The Work Manager offers a range of features to ensure a seamless user experience for HR staff and employees:
   - User Authentication: Secure login functionalities for employees, managers, and HR staff to access their respective dashboards.
   - Approval System: Managers can approve or unapprove work hours submitted by their respective team members, ensuring accurate payroll processing.
   - Search Functionality: Advanced search options allow managers to find employee records and work hours efficiently.
@@ -26,4 +26,4 @@ Pages
 - HR Dashboard (Hr.php): The main dashboard for HR staff to view all approved work hours.
 
 Conclusion
-- The Digis Squared HR Management System is an ideal solution for managing part-time employee schedules and records. Its comprehensive suite of features, combined with a focus on user experience and efficient management, makes it a standout choice in the competitive landscape of HR management systems.
+- The Work Manager is an ideal solution for managing part-time employee schedules and records for Digis Squared. Its comprehensive suite of features, combined with a focus on user experience and efficient management, makes it a standout choice in the competitive landscape of HR management systems.
