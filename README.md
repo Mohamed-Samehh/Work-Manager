@@ -2,7 +2,7 @@
 
 ## Overview
 
-- This is an interactive web application designed to simplify the management of part-time employee schedules and records for Digis Squared company. It offers a comprehensive solution where employees can enter their working hours, managers can approve or reject the hours logged by their respective team members, and HR staff can view the approved hours for all employees.
+- This is an interactive web application designed to simplify the management of part-time employee schedules and records for Digis Squared. It offers a comprehensive solution where employees can enter their working hours, managers can approve or reject the hours logged by their respective team members, and HR staff can view the approved hours for all employees.
 
 ## Features
 
