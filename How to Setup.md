@@ -6,14 +6,14 @@
 
 2. **Login to PhpMyAdmin:**
    - Use the following credentials:
-     - Username: **root**
-     - Password: *(leave empty)*
+     Username: root
+     Password: *(leave empty)*
 
 3. **Create Database:**
    - In PhpMyAdmin, create a new database named **digis**.
 
 4. **Import Database File:**
-   - Go to the **Import** tab in PhpMyAdmin.
+   - Go to the Import tab in PhpMyAdmin.
    - Choose the file **digis.sql** located in the "Data" folder.
    - Execute the import to populate the **digis** database.
 
