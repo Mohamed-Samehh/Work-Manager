@@ -5,7 +5,7 @@
    - Open your web browser and go to PhpMyAdmin.
 
 2. **Login to PhpMyAdmin:**
-   - Use username *root* and leave the password field empty.
+   - Use username **root** and leave the password field empty.
 
 3. **Create Database:**
    - Create a new database named **digis** in PhpMyAdmin.
