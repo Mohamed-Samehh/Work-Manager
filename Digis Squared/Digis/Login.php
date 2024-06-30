@@ -181,7 +181,7 @@
     
     <section>
         <form id="login-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <h2>Login to Digis Squared</h2>
+            <h2>Login to Work Manager</h2>
 
             <div id= "inp">
                 <div>
