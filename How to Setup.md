@@ -1,4 +1,4 @@
-## Setting Up Database Server (WampServer) and PhpMyAdmin (MySQL)
+## Setting Up Database Server: WampServer with PhpMyAdmin (MySQL)
 
 1. **Start WampServer and Access PhpMyAdmin:**
    - Launch WampServer.
@@ -6,6 +6,7 @@
 
 2. **Login to PhpMyAdmin:**
    - Use username `"root"` and leave the password field empty.
+   - Make sure Server choice is `"MySQL"`.
 
 3. **Create Database:**
    - Create a new database named `"digis"` in PhpMyAdmin.
