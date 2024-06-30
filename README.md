@@ -27,7 +27,7 @@
 - **Login (`Login.php`):** The login page for both managers and employees to access their respective dashboards.
 - **Employee Dashboard (`Emp.php`):** Allows employees to view their work hours and submit them for approval.
 - **Manager Dashboard (`Manager.php`):** The landing page for managers, providing access to approval functionalities and employee search.
-- **HR Dashboard (`Hr.php`):** The main dashboard for HR staff to view all approved work hours.
+- **HR Dashboard (`Hr.php`):** The main dashboard for HR staff to view all approved work hours with employee search.
 
 ## Conclusion
 
