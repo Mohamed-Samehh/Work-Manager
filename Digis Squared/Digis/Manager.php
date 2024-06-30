@@ -5,7 +5,7 @@
         session_unset();
         session_destroy();
 
-        header("Location: login.php");
+        header("Location: Login.php");
         exit();
     }
 
@@ -265,12 +265,31 @@
             border-radius: 30px;
             outline: none;
         }
+
+        .footer__container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .footer_col, .footer__col {
+            margin: 0 20px;
+        }
+
+        footer a{
+            color: #767268;
+        }
+
+        footer a:hover{
+            color: #333333;
+        }
     </style>
 </head>
 
 <body>
     <nav>
-        <div class="nav__logo"><a href="Manager.php">Digis Squared</a></div>
+    <div class="nav__logo"><a href="https://digis2.com">Digis Squared</a></div>
         <ul class="nav__links">
             <li class="links"><form method="post"><button type="submit" name="logout">Logout</button></form></li>
         </ul>
@@ -328,32 +347,24 @@
             <div class="footer_col">
                 <h3>Digis Squared</h3>
                 <p>
-                    Digis Squared was founded in 2016 to deliver independent expertise and tools, manage full end-to-end solutions, and to bridge the gap between clients’ objectives and vendor solutions. Today, our skilled team, share their deep domain expertise and experience, and use our independent AI-tools, to enable smarter networks.
+                Digis Squared was founded in 2016 to deliver independent expertise and tools, manage full end-to-end solutions, and to bridge the gap between clients’ objectives and vendor solutions. Today, our skilled team, share their deep domain expertise and experience, and use our independent AI-tools, to enable smarter networks.
                 </p>
             </div>
             <div class="footer__col">
                 <h4>Company</h4>
-                <p>About Us</p>
-                <p>Our Team</p>
-                <p>Blog</p>
-                <p>Book</p>
-                <p>Contact Us</p>
+                <p><a href="https://digis2.com/careers/">Careers</a></p>
+                <p><a href="https://digis2.com/about/">About</a></p>
+                <p><a href="https://digis2.com/contact/">Contact</a></p>
             </div>
             <div class="footer__col">
-                <h4>Legal</h4>
-                <p>FAQs</p>
-                <p>Terms & Conditions</p>
-                <p>Privacy Policy</p>
-            </div>
-            <div class="footer__col">
-                <h4>Resources</h4>
-                <p>Social Media</p>
-                <p>Help Center</p>
-                <p>Partnerships</p>
+                <h4>Media</h4>
+                <p><a href="https://www.facebook.com/digis2/">Facebook</a></p>
+                <p><a href="https://twitter.com/Digis_2">Twitter</a></p>
+                <p><a href="https://www.linkedin.com/company/digis2/">LinkedIn</a></p>
             </div>
         </div>
         <div class="footer__bar">
-            Copyright &copy; 2024 Digis Squared. All rights reserved.
+            Copyright @ 2024 Digis Squared. All rights reserved.
         </div>
     </footer>
 </body>
