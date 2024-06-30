@@ -57,7 +57,7 @@
               JOIN employee E ON WH.empID = E.employeeID
               JOIN manager M ON E.mID = M.managerID
               WHERE WH.approved != 1 AND M.managerID = '$managerID'
-              AND E.employeeName LIKE '%$search%'
+              AND E.employeeName LIKE '$search%'
               ORDER BY WH.workID ASC;";
 
     $result = mysqli_query($conn, $query);
