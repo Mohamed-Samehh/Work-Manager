@@ -7,7 +7,7 @@
         session_unset();
         session_destroy();
 
-        header("Location: login.php");
+        header("Location: Login.php");
         exit();
     }
 
@@ -279,12 +279,35 @@
         .row div {
             text-align: left;
         }
+
+        #location:hover{
+            color: red;
+        }
+
+        .footer__container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .footer_col, .footer__col {
+            margin: 0 20px;
+        }
+
+        footer a{
+            color: #767268;
+        }
+
+        footer a:hover{
+            color: #333333;
+        }
     </style>
     </head>
     
     <body>
     <nav>
-        <div class="nav__logo"><a href="emp.php">Digis Squared</a></div>
+        <div class="nav__logo"><a href="https://digis2.com">Digis Squared</a></div>
         <ul class="nav__links">
             <li class="links"><form method="post"><button type="submit" name="logout">Logout</button></form></li>
         </ul>
@@ -490,11 +513,11 @@
                 </div>
         </div>
         <div id="info">
-            <i class="fa fa-phone"></i>&nbsp; Hotline: 19923
+            <i class="fa fa-phone"></i>&nbsp; Phone: +20 2 2521 4118
             <p></p>
-            <i class="fa fa-envelope-o"></i>&nbsp;Email: Services@DigisSquared.com
+            <i class="fa fa-envelope-o"></i>&nbsp;Email: hello@DigisSquared.com
             <p></p>
-            <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Location: Maadi - Street 9
+            <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Location: <a href="https://www.google.com/maps?ll=29.956355,31.272564&z=16&t=m&hl=en&gl=GB&mapclient=embed&cid=7181992767470682962" id="location">Building 3, Street 218 Degla, Maadi, Cairo, Egypt</a>
         </div>
 
         <footer class="footer">
@@ -507,23 +530,15 @@
             </div>
             <div class="footer__col">
                 <h4>Company</h4>
-                <p>About Us</p>
-                <p>Our Team</p>
-                <p>Blog</p>
-                <p>Book</p>
-                <p>Contact Us</p>
+                <p><a href="https://digis2.com/careers/">Careers</a></p>
+                <p><a href="https://digis2.com/about/">About</a></p>
+                <p><a href="https://digis2.com/contact/">Contact</a></p>
             </div>
             <div class="footer__col">
-                <h4>Legal</h4>
-                <p>FAQs</p>
-                <p>Terms & Conditions</p>
-                <p>Privacy Policy</p>
-            </div>
-            <div class="footer__col">
-                <h4>Resources</h4>
-                <p>Social Media</p>
-                <p>Help Center</p>
-                <p>Partnerships</p>
+                <h4>Media</h4>
+                <p><a href="https://www.facebook.com/digis2/">Facebook</a></p>
+                <p><a href="https://twitter.com/Digis_2">Twitter</a></p>
+                <p><a href="https://www.linkedin.com/company/digis2/">LinkedIn</a></p>
             </div>
         </div>
         <div class="footer__bar">
