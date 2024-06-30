@@ -52,12 +52,6 @@ nav{
     background-color: #f3f4f6;
 }
 
-.footer__container{
-    display: grid;
-    grid-template-columns: 2fr repeat(3, 1fr);
-    gap: 5rem;
-}
-
 .footer__col h3{
     margin-bottom: 1rem;
     font-size: 1.5rem;
@@ -81,13 +75,8 @@ nav{
 
 .footer__col p{
     margin-bottom: 1rem;
-    color: #767268;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.footer__col p:hover{
-    color: #333333;
 }
 
 .footer__bar{
