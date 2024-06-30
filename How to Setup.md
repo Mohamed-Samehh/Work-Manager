@@ -2,7 +2,7 @@
 
 1. **Start WampServer and Access PhpMyAdmin:**
    - Launch WampServer.
-   - Access to PhpMyAdmin from WampServer.
+   - Access PhpMyAdmin from WampServer.
 
 2. **Login to PhpMyAdmin:**
    - Use username `"root"` and leave the password field empty.
