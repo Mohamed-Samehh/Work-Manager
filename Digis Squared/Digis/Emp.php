@@ -278,6 +278,7 @@
 
         .row div {
             text-align: left;
+            margin: 0 10px;
         }
 
         #location:hover{
@@ -351,6 +352,7 @@
                 <input type="number" id="salary" name="salary" value= '0' oninput="if(parseInt(value) < 0 || value == '') value='0';">
             </div>
 
+            <div class="row">
                 <div>
                     <label for="day1">1 <span class="output"></span></label>
                     <input type="number" id="day1" name="day1" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -365,7 +367,9 @@
                     <label for="day3">3 <span class="output"></span></label>
                     <input type="number" id="day3" name="day3" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
+            <div class="row">
                 <div>
                     <label for="day4">4 <span class="output"></span></label>
                     <input type="number" id="day4" name="day4" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -380,7 +384,9 @@
                     <label for="day6">6 <span class="output"></span></label>
                     <input type="number" id="day6" name="day6" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
+            <div class="row">
                 <div>
                     <label for="day7">7 <span class="output"></span></label>
                     <input type="number" id="day7" name="day7" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -395,7 +401,9 @@
                     <label for="day9">9 <span class="output"></span></label>
                     <input type="number" id="day9" name="day9" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
+            <div class="row">
                 <div>
                     <label for="day10">10 <span class="output"></span></label>
                     <input type="number" id="day10" name="day10" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -410,7 +418,9 @@
                     <label for="day12">12 <span class="output"></span></label>
                     <input type="number" id="day12" name="day12" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
+            <div class="row">
                 <div>
                     <label for="day13">13 <span class="output"></span></label>
                     <input type="number" id="day13" name="day13" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -425,7 +435,9 @@
                     <label for="day15">15 <span class="output"></span></label>
                     <input type="number" id="day15" name="day15" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
+            <div class="row">
                 <div>
                     <label for="day16">16 <span class="output"></span></label>
                     <input type="number" id="day16" name="day16" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -440,7 +452,9 @@
                     <label for="day18">18 <span class="output"></span></label>
                     <input type="number" id="day18" name="day18" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
+            <div class="row">
                 <div>
                     <label for="day19">19 <span class="output"></span></label>
                     <input type="number" id="day19" name="day19" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -455,7 +469,9 @@
                     <label for="day21">21 <span class="output"></span></label>
                     <input type="number" id="day21" name="day21" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
+            <div class="row">
                 <div>
                     <label for="day22">22 <span class="output"></span></label>
                     <input type="number" id="day22" name="day22" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -470,8 +486,9 @@
                     <label for="day24">24 <span class="output"></span></label>
                     <input type="number" id="day24" name="day24" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
-
+            <div class="row">
                 <div>
                     <label for="day25">25 <span class="output"></span></label>
                     <input type="number" id="day25" name="day25" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -486,7 +503,9 @@
                     <label for="day27">27 <span class="output"></span></label>
                     <input type="number" id="day27" name="day27" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
+            <div class="row">
                 <div>
                     <label for="day28">28 <span class="output"></span></label>
                     <input type="number" id="day28" name="day28" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
@@ -501,11 +520,14 @@
                     <label for="day30" class="day30">30 <span class="output"></span></label>
                     <input type="number" class="day30" name="day30" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
+            <div class="row">
                 <div>
                     <label for="day31" class="day31">31 <span class="output"></span></label>
                     <input type="number" class="day31" name="day31" value= '0' oninput="if(parseInt(value) > 24) value='24'; else if(parseInt(value) < 0 || value == '') value='0';">
                 </div>
+            </div>
 
             <button type="submit">Submit</button>
         </form>
