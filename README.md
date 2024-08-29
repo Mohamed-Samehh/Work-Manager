@@ -16,7 +16,7 @@
 ## Technologies Used
 
 - **HTML and CSS:** For structuring and designing the frontend, ensuring a responsive and visually appealing interface.
-- **JavaScript:** Enhances frontend interactivity, manages user inputs, and communicates with the backend for data processing.
+- **JavaScript and jQuery:** Enhances frontend interactivity, manages user inputs, and communicates with the backend for data processing.
 - **AJAX:** Allows for asynchronous data loading, enabling dynamic updates without reloading pages.
 - **PHP:** Handles server-side scripting for backend logic, database interactions, and session management.
 - **MySQL:** A relational database management system used for storing employee and work hour data.
